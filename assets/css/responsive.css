@@ -31,7 +31,8 @@
     .standard__img,
     .standard__list span:nth-child(3),
     .standard__list span:nth-child(4),
-    .contact__form .d-flex div {
+    .contact__form .d-flex div,
+    .w-90 {
         width: 100% !important;
     }
 
@@ -146,11 +147,14 @@
     .subs__lists li:nth-child(2),
     .brand__icon__content {
         margin-top: 10px;
-        word-break: break-all;
     }
 
     .subs__lists li {
         align-items: center;
+    }
+
+    .nav__list li {
+        border-bottom: 1px solid;
     }
 
     .brand__title h3,
@@ -185,9 +189,16 @@
     input[type="password"],
     input[type="email"],
     .contact__input .form-control,
-    textarea::placeholder,
     .contact__send button {
         padding: 10px !important;
+        font-size: 10px;
+    }
+
+    textarea {
+        padding: 0 10px;
+    }
+
+    textarea::placeholder {
         font-size: 10px;
     }
 
@@ -433,6 +444,10 @@
     .footer ul li img {
         width: 20px;
         height: 20px;
+    }
+
+    .nav__list li {
+        border-bottom: 1px solid;
     }
 
 }
